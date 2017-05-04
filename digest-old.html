@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:v="urn:schemas-microsoft-com:vml"
+   xmlns:o="urn:schemas-microsoft-com:office:office">
+   <head>
+      <title>{% if content.html_title and content.html_title != '' %}{{ content.html_title }}{% else %}{{ content.body.subject }}{% endif %}</title>
+      {% if content.meta_description %}
+      <meta name="description" content="{{ content.meta_description }}"/>
+      {% endif %}
+      <meta property="og:image" content="http://www.artel-usa.com/wp-content/uploads/2013/06/facebook-artel.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!--needed to render images properly for DPI > 96-->
+      <!--[if gte mso 8]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <style type="text/css" id="hs-inline-css">
+         /* CLIENT-SPECIFIC STYLES */
+         #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+         .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+         body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border-collapse:collapse; mso-table-lspace:0; mso-table-rspace:0; } /* Prevent WebKit and Windows mobile changing default text sizes */
+         table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+         img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+         /* RESET STYLES */
+         body{margin:0; padding:0;}
+         img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+         table{border-collapse:collapse !important;}
+         body{height:100% !important; margin:0; padding:0; width:100% !important;}
+         /* iOS BLUE LINKS */
+         .appleBody a {color:#68440a; text-decoration: none;}
+         .appleFooter a {color:#999999; text-decoration: none;}
+         /* MOBILE STYLES */
+         @media screen and (max-device-width: 500px), screen and (max-width: 500px) {
+         /* ALLOWS FOR FLUID TABLES */
+         table[class="wrapper"]{
+         width:100% !important;
+         }
+         td[class="centerme"] {
+         text-align:center!important;	
+         float:none!important;
+         align-content:center!important;
+         align-items:center;!important;
+         margin:0 auto!important;
+         width:100%!important;
+         clear:both!important;
+         }
+         /* ADJUSTS LAYOUT OF LOGO IMAGE */
+         td[class="logo"]{
+         text-align: left;
+         }
+         td[class="logo"] img{
+         margin:0 auto!important;
+         width:100%;
+         max-width:160px;
+         min-width:100px;
+         height:auto;
+         }
+         /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+         td[class="mobile-hide"]{
+         display:none;}
+         img[class="mobile-hide"]{
+         display: none !important;
+         }
+         img[class="img-max"]{
+         max-width: 100% !important;
+         width: 100% !important;
+         height:auto !important;
+         }
+         img[class="mobile-img"]{
+         max-width: 60% !important;
+         width: 60% !important;
+         height:auto !important;
+         }
+         /* FULL-WIDTH TABLES */
+         table[class="responsive-table"]{
+         width:100%!important;
+         }
+         /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+         td[class="padding"]{
+         padding: 10px 5% 15px 5% !important;
+         }
+         td[class="padding-copy"]{
+         padding: 15px 5% 15px 5% !important;
+         text-align: center;
+         }
+         td[class="padding-meta"]{
+         padding: 30px 5% 0px 5% !important;
+         text-align: center;
+         }
+         td[class="no-pad"]{
+         padding: 0 5% 15px 5% !important;
+         }
+         td[class="no-padding"]{
+         padding: 0 !important;
+         }
+         td[class="section-padding"]{
+         padding: 10px 15px 10px 15px !important;
+         }
+         td[class="section-padding-bottom-image"]{
+         padding: 50px 15px 0 15px !important;
+         }
+         /* ADJUST BUTTONS ON MOBILE */
+         td[class="mobile-wrapper"]{
+         padding: 10px 5% 15px 5% !important;
+         }
+         table[class="mobile-button-container"]{
+         margin:0 auto;
+         width:100% !important;
+         }
+         a[class="mobile-button"]{
+         width:80% !important;
+         padding: 15px !important;
+         border: 0 !important;
+         font-size: 16px !important;
+         color: #ffffff !important;
+         }
+         }
+      </style>
+   </head>
+   <body style="margin: 0; padding: 0; background:#EEEEEE; font-family: Helvetica, Arial, sans-serif; ">
+      <!-- EMAIL BODY -->
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+            <td bgcolor="#EEEEEE" align="center" style="padding: 8px 15px;" class="section-padding">
+               <table border="0" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" width="600" class="responsive-table" style="margin:0 auto; width:600px;">
+                  <tr>
+                     <td>
+                        <!-- WRAPPER -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                           <!-- PREVIEW TEXT -->
+                           <tr>
+                              <td bgcolor="#EEEEEE" style="text-align: center;" align="center">
+                                 <table cellpadding="0" cellspacing="0" width="100%" class="responsive-table">
+                                    <td valign="top" align="center" style="font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 10px; line-height:15px; color:#3a3a3a; padding: 0px 10px 5px 10px;">
+                                       <div id="preview_text" style="display:none;font-size:1px;color:{{background_color}};line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{% text "preview_text" label="Preview Text", value="", no_wrapper=True %}</div>
+                                    </td>
+                                 </table>
+                              </td>
+                           </tr>
+                           <!-- VIEW AS WEBPAGE -->
+                           <tr>
+                              <td bgcolor="#EEEEEE" style="text-align: center;" align="center">
+                                 <table cellpadding="0" cellspacing="0" width="100%" class="responsive-table">
+                                    <tr>
+                                       <td valign="top" align="center" style="font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 10px; line-height:13px; color:#3a3a3a; padding: 0px 10px 0px 10px;">Not rendering correctly? View this email as a <a style="text-decoration: none; color:#FF9614; white-space: nowrap;" data-viewaswebpage="true" target="_blank" href="{{view_as_page_url}}"><strong>web page</strong></a>.
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <!-- LOGO -->
+                           <tr>
+                              <td bgcolor="#EEEEEE">
+                                 <table width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                       <tr>
+                                          <td class="logo" align="center" style="text-align:center; padding:25px 10px 17px 10px; font-family: Arial, Helvetica, sans-serif;"><a href="http://www.artel-usa.com"><img border="0" src="http://info.artel-usa.com/hubfs/artel-resp-logo.png" width="180" height="auto" alt="Artel" style="text-align:center; margin:0 auto; width:180px; height: auto;" /></a></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <!-- BLUE BANNER -->
+                           <tr>
+                              <td bgcolor="#003282" style="padding: 0px; text-align: center;" align="center">
+                                 <table width="100%" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                                    <tr>
+                                       <td style="padding: 7px; vertical-align: middle;" align="center" bgcolor="#003282">
+                                          <div style="margin:0px; padding:0px; display: block; color:#FFFFFF;">{% widget_block rich_text "Artel-Digest-Blue-Banner" label='Artel Digest - Blue Banner' %} {% widget_attribute "html" %}<a href="http://www.artel-usa.com/digest" target="_blank" style="font-size: 17px; text-transform: uppercase; font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; text-decoration: none; display: inline-block; color: #fffffe;"> <strong style="color: #fffffe; font-weight: 400;">ARTEL DIGEST</strong></a>{% end_widget_attribute %} {% end_widget_block %}
+                                          </div>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <!-- IMAGE -->
+                           <tr>
+                              <td style="padding: 25px 20px 15px 20px; text-align: center;" align="center">
+                                 {% linked_image "Digest_image" label="Digest Image", alt="Artel", link="#", src="http://info.artel-usa.com/hubfs/HubSpot-placeholder-image-350x210.png", style="max-width:350px; width: 350px;", width=350 %}</div>
+                              </td>
+                           </tr>
+                           <!-- COPY -->
+                           <tr>
+                              <td>
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                       <td align="center" style="color: #000000; padding:10px 25px; font-family: Arial,Helvetica,sans-serif" class="padding-copy">
+                                          <div style="margin:0px; padding:0px;">
+                                             {% widget_block rich_text "module_name_title" label='Feature Digest Post Title' %} {% widget_attribute "html" %}
+                                             <h1 class="centerme" style="margin: 0px; text-align: center; line-height:25pt; font-size: 22pt; font-weight: 300;"><a href="http://www.artel-usa.com/liquid-handling-improvements-and-other-lab-resolutions/" target="_blank" style="text-decoration: none; color: #000000;"><strong style="color: #333333; font-weight: 400;">Make 2016 the Year of Data Quality</strong></a></h1>
+                                             {% end_widget_attribute %} {% end_widget_block %}
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td class="centerme" style="padding: 10px 25px; font-size: 12pt; margin: 0px; line-height: 17pt; text-align: center; font-family: Arial,Helvetica,sans-serif">
+                                          <div style="margin:0px; padding:0px;">{% widget_block rich_text "module_name_excerpt" label='Feature Digest Post Excerpt' %} {% widget_attribute "html" %}Automation is a crucial part of assays – it’s faster than manual methods and it improves repeatability of critical dispensed volumes.{% end_widget_attribute %} {% end_widget_block %}</div>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td align="center" style="padding: 15px 25px 10px 25px;">
+                                 <!-- BULLETPROOF BUTTON -->
+                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                    <tr>
+                                       <td align="center">
+                                          <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                             <tr>
+                                                <td style="color: #FFFFFF; padding: 15px 20px; vertical-align: middle; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;" align="center" bgcolor="#FF9614">
+                                                   <div style="margin:0px; padding:0px 10px; display: inline-block;">
+                                                      {% widget_block rich_text "cta-text-right" label='CTA Text - Right' %} {% widget_attribute "html" %}
+                                                      <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #FFFFFF; text-decoration: none; background: #FF9614; display: inline-block;">
+                                                         <strong style="color: #ffffff; font-weight:400;">
+                                                            More about Artel's products & 
+                                                            <nobr><span style="white-space: nowrap;">services &rarr;</span></nobr>
+                                                         </strong>
+                                                      </a>
+                                                      {% end_widget_attribute %} {% end_widget_block %}
+                                                   </div>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <!-- HTML Spacer row -->
+                           <tr>
+                              <td style="font-size: 0; line-height: 0; padding: 5px 20px 30px; margin:0px;" height="1">
+                                 <table style="width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+                                    <tbody>
+                                       <tr>
+                                          <td style="background: none; border-bottom: 1px dashed #CCCCCC; height: 1px; margin: 0px; padding: 10pt 0px 0px; font-size:1pt;">
+                                             <div style="margin:0px; padding:0px; font-size:1pt;">&nbsp;</div>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td bgcolor="#8e9899">
+                                 <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center" class="responsive-table">
+                                    <tr>
+                                       <td align="center" style="padding: 20px 20px 5px 20px; font-family: Arial, Helvetica, sans-serif;  font-size: 12pt; line-height: 17pt; color: #ffffff;">
+                                          <div style="padding:0px; margin:0px;"><strong>{% text "sharing_text" label="Message Asking People to Share Email", value="Share this email with your colleagues" %}</strong></div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" style="padding: 5px 20px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 12pt; line-height:17pt; color: #ffffff;">
+                                          <div class="widget-span widget-type-social_sharing " style="padding: 0px; margin:0px; text-align: center; " data-widget-type="social_sharing">
+                                             <div class="layout-widget-wrapper">
+                                                {% widget_block social_sharing "Social Sharing" label='Social Sharing', use_page_url=False  %} {% end_widget_block %}
+                                             </div>
+                                             <!--end layout-widget-wrapper -->
+                                          </div>
+                                          <!--end widget-span -->
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td bgcolor="#EEEEEE" >
+                                 <!-- FOOTER -->
+                                 <table bgcolor="#EEEEEE"  border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                       <td bgcolor="#EEEEEE" align="center" style="padding: 20px 0px;">
+                                          <!-- UNSUBSCRIBE COPY -->
+                                          <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#EEEEEE"  class="responsive-table">
+                                             <tr>
+                                                <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
+                                                   <span class="appleFooter">
+                                                      <p style="font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 10px; line-height:18px; color:#3a3a3a; display: block;"> {{ site_settings.company_name }}&nbsp;{{ site_settings.company_street_address_1 }}{{ site_settings.company_street_address_2 }}&nbsp;{{ site_settings.company_city }}&nbsp;{{ site_settings.company_state }}&nbsp;{{ site_settings.company_zip }}&nbsp;{{ site_settings.company_country }}<br> You received this email because you are subscribed to {{subscription_name}} from {{ site_settings.company_name }}. <br> Update your <a style="color:#FF9614; text-decoration:none; white-space: nowrap;;" data-unsubscribe="true" target="_blank" href="{{unsubscribe_link}}"><strong>email preferences</strong></a> to choose the types of emails you receive. <br> &nbsp;<a style="color:#FF9614; text-decoration:none; white-space:nowrap;" data-unsubscribe="true" target="_blank" href="{{unsubscribe_link_all}}"><strong>Remove from all future emails</strong></a>                  
+                                                      </p>
+                                                   </span>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
